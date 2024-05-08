@@ -23,14 +23,14 @@ An example usage of the script is:
 Perform in-silico PCR on two assemblies and align the amplicons
 
 options:
--h, --help            show this help message and exit
--1 ASSEMBLY1          Path to the first assembly file
--2 ASSEMBLY2          Path to the second assembly file
--p PRIMERS            Path to the primer file
--m MAX_AMPLICON_SIZE  maximum amplicon size for isPCR
---match MATCH         match score to use in alignment
---mismatch MISMATCH   mismatch penalty to use in alignment
---gap GAP             gap penalty to use in alignment
+    -h, --help            show this help message and exit
+    -1 ASSEMBLY1          Path to the first assembly file
+    -2 ASSEMBLY2          Path to the second assembly file
+    -p PRIMERS            Path to the primer file
+    -m MAX_AMPLICON_SIZE  maximum amplicon size for isPCR
+    --match MATCH         match score to use in alignment
+    --mismatch MISMATCH   mismatch penalty to use in alignment
+    --gap GAP             gap penalty to use in alignment
 ```
 
 Note: Providing negative numbers as command-line inputs can lead argparse to interpret them as options. You can work around this in two ways: 1) enclose the number with a leading space (for example, --gap ' -1'). 2) Link an option and its value using the "=" symbol (for example, --gap=-1).
