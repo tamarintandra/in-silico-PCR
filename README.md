@@ -13,7 +13,7 @@ isPCR is a computational simulation of the Polymerase Chain Reaction (PCR), a wi
 The Needleman-Wunsch algorithm uses dynamic programming to find optimal alignment between two sequences, which may or may not contain gaps. The ```nw.py``` script returns one of the optimal alignments as well as its alignment score in the output.
 
 ## Integration
-The ```amplicon_align.py``` script will perform in-silico PCR on two assemblies and align the amplicons together. It takes two assembly files, a primer file, a maximum amplicon size, and a match, mismatch, and gap score as command-line input.
+The ```amplicon_align.py``` script performs *in-silico* PCR on two assemblies and align the amplicons using the needleman-wunsch algorithm. It takes two assembly files, a primer file, a maximum amplicon size, and a match, mismatch, and gap score as command-line input.
 
 ```
 An example usage of the script is:
