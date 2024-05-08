@@ -2,7 +2,7 @@
 This Python module performs in-silico PCR and Needleman-Wunsch alignment sequentially. Some example data files are provided in the ```data``` folder.
 
 ## *In-Silico* PCR
-isPCR is a computational simulation of the Polymerase Chain Reaction (PCR), a widely used technique in laboratory settings to amplify target DNA sequences. It employs similar principles as traditional PCR but leverages computational methods to model the chemical processes inherent in PCR, thereby simulating its outcomes.
+*is*PCR is a computational simulation of the Polymerase Chain Reaction (PCR), a widely used technique in laboratory settings to amplify target DNA sequences. It employs similar principles as traditional PCR but leverages computational methods to model the chemical processes inherent in PCR, thereby simulating its outcomes.
 
 ```ispcr.py``` script employs three distinct steps. The stepwise development process involves:
 1. Identify locations where primers would anneal to the target sequence
@@ -20,7 +20,8 @@ An example usage of the script is:
 
     ./amplicon_align.py -h
 
-usage: amplicon_align.py [-h] -1 ASSEMBLY1 -2 ASSEMBLY2 -p PRIMERS -m MAX_AMPLICON_SIZE --match MATCH --mismatch MISMATCH --gap GAP
+usage: amplicon_align.py [-h] -1 ASSEMBLY1 -2 ASSEMBLY2 -p PRIMERS
+-m MAX_AMPLICON_SIZE --match MATCH --mismatch MISMATCH --gap GAP
 
 Perform in-silico PCR on two assemblies and align the amplicons
 
