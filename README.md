@@ -18,7 +18,9 @@ The ```amplicon_align.py``` script performs *in-silico* PCR on two assemblies an
 ```
 An example usage of the script is:
 
-    amplicon_align.py [-h] -1 ASSEMBLY1 -2 ASSEMBLY2 -p PRIMERS -m MAX_AMPLICON_SIZE --match MATCH --mismatch MISMATCH --gap GAP
+    ./amplicon_align.py -h
+
+usage: amplicon_align.py [-h] -1 ASSEMBLY1 -2 ASSEMBLY2 -p PRIMERS -m MAX_AMPLICON_SIZE --match MATCH --mismatch MISMATCH --gap GAP
 
 Perform in-silico PCR on two assemblies and align the amplicons
 
