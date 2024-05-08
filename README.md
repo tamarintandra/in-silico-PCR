@@ -35,4 +35,6 @@ options:
     --gap GAP             gap penalty to use in alignment
 ```
 
-Note: Providing negative numbers as command-line inputs can lead argparse to interpret them as options. You can work around this in two ways: 1) enclose the number with a leading space (for example, --gap ' -1'). 2) Link an option and its value using the "=" symbol (for example, --gap=-1).
+**Note**: Providing negative numbers as command-line inputs can lead argparse to interpret them as options. You can work around this in two ways: 
+1) Enclose the number with a leading space (for example, --gap ' -1')
+2) Link an option and its value using the "=" symbol (for example, --gap=-1)
