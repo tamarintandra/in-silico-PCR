@@ -1,5 +1,5 @@
 # *In-silico*-PCR and Needleman-Wunsch Alignment
-This Python module performs in-silico PCR and Needleman-Wunsch alignment sequentially. Some example data files are provided in the ```data``` folder.
+This Python module performs in-silico PCR and Needleman-Wunsch alignment sequentially. Some example data files are provided in the **data** folder.
 
 ## *In-Silico* PCR
 *is*PCR is a computational simulation of the Polymerase Chain Reaction (PCR), a widely used technique in laboratory settings to amplify target DNA sequences. It employs similar principles as traditional PCR but leverages computational methods to model the chemical processes inherent in PCR, thereby simulating its outcomes.
